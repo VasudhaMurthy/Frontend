@@ -1,0 +1,90 @@
+/* AvailableDrivers.css */
+
+.available-drivers {
+    background-color: #f5f8fa; /* Light background */
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  
+  .available-drivers h2 {
+    color: #343a40; /* Dark grey heading */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .drivers-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .driver-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    padding: 25px;
+    border: 1px solid #e9ecef; /* Light border */
+  }
+  
+  .driver-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .driver-card h3 {
+    color: #007bff; /* Primary color */
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .driver-details p {
+    color: #495057;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .driver-details strong {
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .book-button {
+    background-color: #28a745; /* Success color */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    width: fit-content;
+    margin-top: 20px;
+  }
+  
+  .book-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .drivers-list {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  
+    .available-drivers {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  }
+
+  
+  

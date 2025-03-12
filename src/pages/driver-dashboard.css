@@ -1,0 +1,116 @@
+.driver-dashboard-container {
+  position:absolute; /* Changed from absolute to relative */
+  background-color:#f0f0f0; /* Background color */
+  padding:40; /* Padding around the container */
+  border-radius:10; /* Rounded corners */
+  box-shadow:0,0,10 rgba(0,0,0,0.1); /* Shadow effect */
+  text-align:center; /* Centered text */
+  width:80%; /* Width of the container */
+  max-width:800; /* Maximum width */
+  margin:40 auto; /* Centered with margin */
+}
+
+.main-content { /* Main content area */
+ padding:20; /* Padding for the main content */
+}
+
+.section-container { /* Section container for each part of the dashboard */
+ margin-bottom:20; /* Margin below each section */
+ padding:10; /* Padding inside each section */
+ border:1 solid #ddd; /* Border around each section */
+ border-radius:5; /* Rounded corners for sections */
+ box-shadow:0,0,5 rgba(0,0,0,0.1); /* Shadow effect for sections */
+}
+
+/* Header styles */
+.header { /* Header styles for the dashboard header */
+ margin-bottom:20; /* Margin below the header */
+ text-align:center; /* Centered header text */
+}
+
+.header h1 { /* Header title styles */
+ font-size:24; /* Font size for the title */
+ color:#333; /* Color of the title text */
+ margin-bottom:10; /* Margin below the title */
+}
+
+/* Rewards panel styles in header */
+.header .rewards-panel {  
+ display:flex; /* Flexbox layout for rewards panel */  
+ justify-content:center; /* Centered content */  
+ align-items:center; /* Centered items vertically */  
+}
+
+/* Tag styles in rewards panel */  
+.header .rewards-panel .ant-tag {  
+ font-size:18; /* Font size for tags */  
+ margin-right:10; /* Margin to the right of tags */  
+}
+
+/* Button styles in rewards panel */  
+.header .rewards-panel button {  
+ padding:10,20 ;/* Padding for buttons */  
+ font-size:18 ;/* Font size for buttons */  
+}
+
+/* Ride management styles */  
+.ride-management {  
+ padding:20 ;/* Padding for ride management section */  
+}
+
+/* Ride management heading styles */  
+.ride-management h2 {  
+ font-size:20 ;/* Font size for heading */  
+ margin-bottom:10 ;/* Margin below heading */  
+}
+
+/* List item styles in ride management */  
+.ride-management .ant-list-item {  
+ padding:10 ;/* Padding for list items */  
+ border-bottom:1 solid #ddd ;/* Bottom border for list items */  
+}
+
+/* Title styles in list items */  
+.ride-management .ant-list-item-meta-title {  
+ font-size:16 ;/* Font size for titles */  
+}
+
+/* Description styles in list items */  
+.ride-management .ant-list-item-meta-description {  
+ font-size:14 ;/* Font size for descriptions */  
+ color:#666 ;/* Color of description text */  
+}
+
+/* Button styles in ride management section */  
+.ride-management .ant-btn {  
+ padding:8,15 ;/* Padding for buttons */  
+ font-size:14 ;/* Font size for buttons */   
+}
+
+/* Ride card styles in ride management section */   
+.ride-card {   
+ margin-bottom:10 ;/* Margin below ride cards */   
+ padding:10 ;/* Padding inside ride cards */   
+ border:1 solid #ddd ;/* Border around ride cards */   
+ border-radius:5 ;/* Rounded corners for ride cards */   
+ box-shadow:0,0,5 rgba(0,0,0,0.1);   
+}   
+
+/* Heading styles in ride cards */   
+.ride-card h3 {   
+ font-size:18 ;/* Font size for headings in ride cards */   
+ margin-bottom:5 ;/* Margin below headings */   
+}   
+
+/* Paragraph styles in ride cards */   
+.ride-card p {   
+ font-size:14 ;/* Font size for paragraphs in ride cards */   
+ color:#666 ;/* Color of paragraph text */   
+}   
+
+/* Button styles in ride cards */   
+.ride-card .ant-btn {   
+ padding:8,15 ;/* Padding for buttons in ride cards */   
+ font-size:14 ;/* Font size for buttons in ride cards*/    
+}   
+

@@ -1,0 +1,45 @@
+.rewards {
+    padding: 20px;
+  }
+  
+  .rewards h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .rewards .ant-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .rewards .ant-modal-body {
+    padding: 20px;
+  }
+  
+  .rewards .ant-modal-title {
+    font-size: 20px;
+  }
+  
+  .rewards .ant-list-item {
+    padding: 10px;
+  }
+  
+  .rewards .ant-list-item-meta-title {
+    font-size: 16px;
+  }
+  
+  .rewards .ant-list-item-meta-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .rewards .ant-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
+  .rewards .ant-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

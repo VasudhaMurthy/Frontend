@@ -1,0 +1,35 @@
+/* Payment.css */
+.payment-page {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-details {
+    margin-bottom: 20px;
+  }
+  
+  .payment-details p {
+    margin: 10px 0;
+  }
+  
+  .payment-details label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .payment-details input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .payment-page button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

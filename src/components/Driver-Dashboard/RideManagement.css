@@ -1,0 +1,40 @@
+.ride-management {
+    padding:20px; 
+}
+.ride-management h2 { 
+    font-size:20px; 
+    margin-bottom:10px; 
+}
+.ride-management .ant-list-item { 
+    padding:10px; 
+    border-bottom:1px solid #ddd; 
+}
+.ride-management .ant-list-item-meta-title { 
+    font-size:16px; 
+}
+.ride-management .ant-list-item-meta-description { 
+    font-size:14px; 
+    color:#666; 
+}
+.ride-management .ant-btn { 
+    padding:8px; 
+    font-size:14px; 
+}
+.ride-card { 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #ddd; 
+    border-radius:5px; 
+    box-shadow:0,0,5 rgba(0,0,0,0.1); 
+}
+.ride-card h3 { 
+    font-size:18px; 
+    margin-bottom:5; 
+}
+.ride-card p { 
+    font-size:14; color:#666; 
+}
+.ride-card .ant-btn { 
+    padding:8,15; 
+    font-size:14;  
+}

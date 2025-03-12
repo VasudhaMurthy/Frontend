@@ -1,0 +1,33 @@
+.carpooling {
+    padding: 20px;
+  }
+  
+  .carpooling h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .carpooling .ant-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .carpooling .ant-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .carpooling .ant-list-item-meta-title {
+    font-size: 16px;
+  }
+  
+  .carpooling .ant-list-item-meta-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .carpooling .ant-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
