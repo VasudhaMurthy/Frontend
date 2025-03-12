@@ -140,12 +140,13 @@ const AvailableDrivers = () => {
   const handleBookDriver = (driver) => {
     setSelectedDriver(driver);
     setBookingStatus('pending');
-
+  
     setTimeout(() => {
       const isAccepted = Math.random() > 0.5;
       if (isAccepted) {
+        const otp = Math.floor(100000 + Math.random() * 900000); // Generate 6-digit OTP
         setBookingStatus('accepted');
-        navigate('/ride-details', { state: { driver } });
+        navigate('/ride-details', { state: { driver, otp } }); // Pass OTP
       } else {
         setBookingStatus('rejected');
       }
